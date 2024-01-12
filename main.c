@@ -3,6 +3,13 @@
 #include <string.h>
 #include "func.h"
 
+// Global variables
+struct Product products[100];
+struct Product newProducts[100];
+int productCount = 0;
+int orderCount = 0;
+struct Order orders[100];
+
 int main() {
     loadData();
     int choice;
