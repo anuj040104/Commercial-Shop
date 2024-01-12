@@ -29,8 +29,8 @@ struct Order {
 // Global variables
 struct Product products[100];
 struct Product newProducts[100];
-int productCount = 0;
+int productCount;
 
 struct Order orders[100];
-int orderCount = 0;
+int orderCount;
 #endif
