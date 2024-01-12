@@ -1,3 +1,5 @@
+#ifndef FUNC_H
+#define FUNC_H
 void loadData();
 void saveData();
 void addProduct();
@@ -31,3 +33,4 @@ int productCount = 0;
 
 struct Order orders[100];
 int orderCount = 0;
+#endif
